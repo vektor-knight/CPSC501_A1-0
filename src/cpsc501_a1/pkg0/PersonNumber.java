@@ -11,7 +11,7 @@ package cpsc501_a1.pkg0;
  */
 public class PersonNumber {
   private String name = "Bob";
-  private String officeAreaCode = "(403)";
+  private String officeAreaCode = "403";
   private String officeNumber = "2071307";
 
   public String getName() {
