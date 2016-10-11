@@ -43,7 +43,9 @@ public class PersonNumberTest {
     @Test
     public void testGetName() {
         System.out.println("getName");
-        PersonNumber instance = new PersonNumber();
+        // Refactor 1: Change class object to reflect
+        // results of "Rename Class"
+        Person instance = new Person();
         String expResult = "Bob";
         String result = instance.getName();
         assertEquals(expResult, result);
@@ -67,7 +69,8 @@ public class PersonNumberTest {
     @Test
     public void testGetOfficeAreaCode() {
         System.out.println("getOfficeAreaCode");
-        PersonNumber instance = new PersonNumber();
+        // Apply same change here to reflect Refactor 1 (Rename Class)
+        Person instance = new Person();
         String expResult = "403";
         String result = instance.getOfficeAreaCode();
         assertEquals(expResult, result);
@@ -90,7 +93,8 @@ public class PersonNumberTest {
     @Test
     public void testGetOfficeNumber() {
         System.out.println("getOfficeNumber");
-        PersonNumber instance = new PersonNumber();
+        // Updating class object to reflect Refactor 1
+        Person instance = new Person();
         String expResult = "2071307";
         String result = instance.getOfficeNumber();
         assertEquals(expResult, result);
@@ -103,7 +107,8 @@ public class PersonNumberTest {
     public void testSetOfficeNumber() {
         System.out.println("setOfficeNumber");
         String arg = "2071307";
-        PersonNumber instance = new PersonNumber();
+        // Updating class object to reflect Refactor 1
+        Person instance = new Person();
         instance.setOfficeNumber(arg);
     }
     
