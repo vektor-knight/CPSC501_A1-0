@@ -68,7 +68,7 @@ public class PersonNumberTest {
     public void testGetOfficeAreaCode() {
         System.out.println("getOfficeAreaCode");
         PersonNumber instance = new PersonNumber();
-        String expResult = "(403)";
+        String expResult = "403";
         String result = instance.getOfficeAreaCode();
         assertEquals(expResult, result);
     }
@@ -79,7 +79,7 @@ public class PersonNumberTest {
     @Test
     public void testSetOfficeAreaCode() {
         System.out.println("setOfficeAreaCode");
-        String arg = "(403)";
+        String arg = "403";
         PersonNumber instance = new PersonNumber();
         instance.setOfficeAreaCode(arg);
     }
@@ -91,7 +91,7 @@ public class PersonNumberTest {
     public void testGetOfficeNumber() {
         System.out.println("getOfficeNumber");
         PersonNumber instance = new PersonNumber();
-        String expResult = "(403) 2071307";
+        String expResult = "2071307";
         String result = instance.getOfficeNumber();
         assertEquals(expResult, result);
     }
@@ -102,7 +102,7 @@ public class PersonNumberTest {
     @Test
     public void testSetOfficeNumber() {
         System.out.println("setOfficeNumber");
-        String arg = "(403) 2071307";
+        String arg = "2071307";
         PersonNumber instance = new PersonNumber();
         instance.setOfficeNumber(arg);
     }
