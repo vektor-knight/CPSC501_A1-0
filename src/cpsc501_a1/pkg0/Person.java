@@ -16,12 +16,6 @@ public class Person {
     // Apply Refactor 2: Change Signature. 
     // Someone's name is final, since it does not mutate.
   private final String name = "Bob";
-  
-  // As part of Refactor 3: move these variables
-  // to the new class, as they are attributes
-  // of a telephone number.
-  private String officeAreaCode = "403";
-  private String officeNumber = "2071307";
 
   public String getName() {
     return name;
