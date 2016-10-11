@@ -13,7 +13,9 @@ package cpsc501_a1.pkg0;
 // Applying first refactoring: "Rename Class"
 // Name of file changed from PersonClass.java -> Person.java
 public class Person {
-  private String name = "Bob";
+    // Apply Refactor 2: Change Signature. 
+    // Someone's name is final, since it does not mutate.
+  private final String name = "Bob";
   private String officeAreaCode = "403";
   private String officeNumber = "2071307";
 
