@@ -83,7 +83,7 @@ public class PersonTest {
     public void testSetOfficeAreaCode() {
         System.out.println("setOfficeAreaCode");
         String arg = "403";
-        PersonNumber instance = new PersonNumber();
+        Person instance = new Person();
         instance.setOfficeAreaCode(arg);
     }
 
