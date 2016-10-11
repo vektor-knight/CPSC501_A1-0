@@ -42,5 +42,73 @@ public class TelephoneNumberTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of getTelephoneNumber method, of class TelephoneNumber.
+     */
+    @Test
+    public void testGetTelephoneNumber() {
+        System.out.println("getTelephoneNumber");
+        TelephoneNumber instance = new TelephoneNumber();
+        String expResult = "";
+        String result = instance.getTelephoneNumber();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getOfficeAreaCode method, of class TelephoneNumber.
+     */
+    @Test
+    public void testGetOfficeAreaCode() {
+        System.out.println("getOfficeAreaCode");
+        TelephoneNumber instance = new TelephoneNumber();
+        String expResult = "";
+        String result = instance.getOfficeAreaCode();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setOfficeAreaCode method, of class TelephoneNumber.
+     */
+    @Test
+    public void testSetOfficeAreaCode() {
+        System.out.println("setOfficeAreaCode");
+        String arg = "";
+        TelephoneNumber instance = new TelephoneNumber();
+        instance.setOfficeAreaCode(arg);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getOfficeNumber method, of class TelephoneNumber.
+     */
+    @Test
+    public void testGetOfficeNumber() {
+        System.out.println("getOfficeNumber");
+        TelephoneNumber instance = new TelephoneNumber();
+        String expResult = "";
+        String result = instance.getOfficeNumber();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setOfficeNumber method, of class TelephoneNumber.
+     */
+    @Test
+    public void testSetOfficeNumber() {
+        System.out.println("setOfficeNumber");
+        String arg = "";
+        TelephoneNumber instance = new TelephoneNumber();
+        instance.setOfficeNumber(arg);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
