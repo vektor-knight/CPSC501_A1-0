@@ -10,9 +10,9 @@ package cpsc501_a1.pkg0;
  * @author shshunda
  */
 public class PersonNumber {
-  private String name;
-  private String officeAreaCode;
-  private String officeNumber;
+  private String name = "Bob";
+  private String officeAreaCode = "(403)";
+  private String officeNumber = "2071307";
 
   public String getName() {
     return name;
