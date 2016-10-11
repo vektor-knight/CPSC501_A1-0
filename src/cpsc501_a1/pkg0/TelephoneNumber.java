@@ -11,4 +11,12 @@ package cpsc501_a1.pkg0;
  */
 public class TelephoneNumber {
     
+    // Refactor 4: "Move Field" applied following
+    // Refactor 3. In this case, the attribute "name"
+    // should remain in the Person class, so moving
+    // attributes corresponding to TelephoneNumber
+    // constitures a new refactoring.
+    private String officeAreaCode = "403";
+    private String officeNumber = "2071307";
+    
 }
