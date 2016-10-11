@@ -20,6 +20,12 @@ public class Person {
   public String getName() {
     return name;
   }
+  
+  // The following mutators and accessors must be moved
+  // to TelephoneNumber, reflecting the results of the "move
+  // field" refactoring. After this, the test cases must be updated.
+  // It is worth noting that a unit test was performed before this
+  // step, which all failed as expected.
   public String getTelephoneNumber() {
     return ("(" + officeAreaCode + ") " + officeNumber);
   }
