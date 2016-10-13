@@ -7,7 +7,7 @@ package cpsc501_a1.pkg0;
 
 /**
  *
- * @author shshunda
+ * @author Sartaj Hundal
  */
 
 // Applying first refactoring: "Rename Class"
@@ -20,25 +20,4 @@ public class Person {
   public String getName() {
     return name;
   }
-  
-  // The following mutators and accessors must be moved
-  // to TelephoneNumber, reflecting the results of the "move
-  // field" refactoring. After this, the test cases must be updated.
-  // It is worth noting that a unit test was performed before this
-  // step, which all failed as expected.
-  public String getTelephoneNumber() {
-    return ("(" + officeAreaCode + ") " + officeNumber);
-  }
-  public String getOfficeAreaCode() {
-    return officeAreaCode;
-  }
-  public void setOfficeAreaCode(String arg) {
-    officeAreaCode = arg;
-  }
-  public String getOfficeNumber() {
-    return officeNumber;
-  }
-  public void setOfficeNumber(String arg) {
-    officeNumber = arg;
-}
 }
