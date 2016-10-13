@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author shshunda
+ * @author Sartaj Hundal
  */
 public class PersonTest {
     
