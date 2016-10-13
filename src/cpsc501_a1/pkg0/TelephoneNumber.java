@@ -19,4 +19,21 @@ public class TelephoneNumber {
     private String officeAreaCode = "403";
     private String officeNumber = "2071307";
     
+    // Refactor 5: Mutators and accessors moved from Person.java ("Move Method")
+    public String getTelephoneNumber() {
+        return ("(" + officeAreaCode + ") " + officeNumber);
+    }
+    public String getOfficeAreaCode() {
+        return officeAreaCode;
+    }
+    public void setOfficeAreaCode(String arg) {
+        officeAreaCode = arg;
+    }
+    public String getOfficeNumber() {
+        return officeNumber;
+    }
+    public void setOfficeNumber(String arg) {
+        officeNumber = arg;
+    }
+    
 }
