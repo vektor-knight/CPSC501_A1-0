@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author shshunda
+ * @author Sartaj Hundal
  */
 public class TelephoneNumberTest {
     
@@ -37,12 +37,6 @@ public class TelephoneNumberTest {
     public void tearDown() {
     }
 
-    @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
     /**
      * Test of getTelephoneNumber method, of class TelephoneNumber.
      */
@@ -50,11 +44,9 @@ public class TelephoneNumberTest {
     public void testGetTelephoneNumber() {
         System.out.println("getTelephoneNumber");
         TelephoneNumber instance = new TelephoneNumber();
-        String expResult = "";
+        String expResult = "(403) 2071307";
         String result = instance.getTelephoneNumber();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -64,11 +56,9 @@ public class TelephoneNumberTest {
     public void testGetOfficeAreaCode() {
         System.out.println("getOfficeAreaCode");
         TelephoneNumber instance = new TelephoneNumber();
-        String expResult = "";
+        String expResult = "403";
         String result = instance.getOfficeAreaCode();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -77,11 +67,9 @@ public class TelephoneNumberTest {
     @Test
     public void testSetOfficeAreaCode() {
         System.out.println("setOfficeAreaCode");
-        String arg = "";
+        String arg = "403";
         TelephoneNumber instance = new TelephoneNumber();
         instance.setOfficeAreaCode(arg);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -91,11 +79,9 @@ public class TelephoneNumberTest {
     public void testGetOfficeNumber() {
         System.out.println("getOfficeNumber");
         TelephoneNumber instance = new TelephoneNumber();
-        String expResult = "";
+        String expResult = "2071307";
         String result = instance.getOfficeNumber();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -104,11 +90,9 @@ public class TelephoneNumberTest {
     @Test
     public void testSetOfficeNumber() {
         System.out.println("setOfficeNumber");
-        String arg = "";
+        String arg = "2071307";
         TelephoneNumber instance = new TelephoneNumber();
         instance.setOfficeNumber(arg);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
